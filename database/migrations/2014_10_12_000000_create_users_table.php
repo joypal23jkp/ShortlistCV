@@ -15,8 +15,7 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        if (!Schema::hasTable('users')){
-            Schema::create('users', function (Blueprint $table) {
+         Schema::create('users', function (Blueprint $table) {
                 $table->id();
                 $table->string('name');
                 $table->string('password');
@@ -24,13 +23,13 @@ class CreateUsersTable extends Migration
                 $table->string('email',191)->unique();
                 $table->string('address',191)->nullable();
                 $table->timestamp('email_verified_at')->nullable();
-                $table->enum('type', UserType::toArray())->default(UserType::USER);
-                $table->enum('status', UserStatusEnum::toArray())->default(UserStatusEnum::ACTIVE());
+                // $table->enum('type', UserType[]::toArray());
+                $table->enum('status', UserStatusEnum::toArray());
                 $table->rememberToken();
                 $table->timestamps();
                 $table->softDeletes();
             });
-        }
+        
     }
 
     /**
