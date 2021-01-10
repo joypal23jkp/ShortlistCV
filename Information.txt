@@ -1,0 +1,72 @@
+Users' Resume Table
+
+1. name  [ first name, last name]
+2. email
+3. phone
+4. permanent address,
+5. p address
+6. profile description
+7. social link
+8. Educational Qualification
+9. Skills
+10. Extra Qualifications
+11. Work Experience
+
+
+Jobs' Table
+
+1. Job Title
+2. Company Name
+3. Vacancy
+4. Job Responsibilities
+5. Employment Status
+6. Educational Requirements
+7. Experience Requirements
+8. Additional Requirements
+9. Job Location
+10. Salary
+11. Compensation & Other Benefits
+12. Application Deadline
+13. Job Status
+
+
+Company Information
+1. name
+2. information
+3. address
+4. web
+5. business type
+
+Category
+
+Category_id
+category_name
+category_description
+category_parent
+
+
+Degree
+Subject
+Education
+
+UExperience
+    fieldOfWork : SE, PM, MM
+    org_info    : Org
+    min_experience: 3
+    max_experience: 3
+
+Addtional Requirements
+    1.TITLE
+    JOB_ID
+
+
+Address
+ type: p/ pa
+ address : text
+ status : u / org
+
+Social Link
+ link
+ cat : fb
+ user
+ org:
