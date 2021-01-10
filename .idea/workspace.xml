@@ -2,48 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae37bf6-f199-4545-bc21-4be497e6e704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Information.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/UserTypeEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/AditionalRequirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/CircularCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Degree.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Education.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Experience.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ExtraQualification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Flight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Organization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Skill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/SocialLink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Subject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_174700_create_resumes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175300_create_degrees_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175342_create_subjects_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175934_create_organizations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_182945_create_flights_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_182958_create_education_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183021_create_experiences_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183043_create_aditional_requirements_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183101_create_addresses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183130_create_social_links_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183306_create_skills_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183413_create_extra_qualifications_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183503_create_circular_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cv-shortlisting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShortlistCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Enums/UserType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -199,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610269829537</updated>
       <workItem from="1610269833649" duration="73000" />
-      <workItem from="1610274346361" duration="2634000" />
+      <workItem from="1610274346361" duration="4443000" />
+      <workItem from="1610279336842" duration="1969000" />
     </task>
     <servers />
   </component>
