@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class CircularCategory extends Model
+class ResponsibilitiesJob extends Model
 {
     use HasFactory;
 }

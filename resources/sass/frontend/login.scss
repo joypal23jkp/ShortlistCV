@@ -1,0 +1,22 @@
+
+.auth-container{
+    margin: auto; top: $height-1; width: $width-40; position: relative; font-family: $font-family-sans-serif;
+    .card{
+        border: none; background: none;
+        input { border-radius: 8px; }
+        button { border-radius: 8px; background: #0e71eb; }
+
+        .input-group{
+            &:focus{
+                outline: none;
+                border: 1px solid blue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $sm-screen){
+    .auth-container{
+        width: $width-90;
+    }
+}

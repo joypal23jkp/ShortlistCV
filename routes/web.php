@@ -1,19 +1,26 @@
 <?php
 
-use App\Models\User;
+use App\Http\Controllers\UserPanel\Auth\LoginController;
+use App\Http\Controllers\UserPanel\Auth\LogoutController;
+use App\Http\Controllers\UserPanel\IndexController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/{user}', function (User $user) {;
-    return response($user, 200);
+
+//Guest Routes
+Route::prefix('CV')->middleware('guest')->group(function (){
+
+    Route::prefix('auth')->group(function(){
+        Route::get('/login', [ LoginController::class, 'showLoginView' ])->name('login.show');
+        Route::post('/login', [ LoginController::class, 'login' ])->name('login');
+    });
+
+    Route::get('/', [ IndexController::class, 'index' ]);
+
+});
+
+//Auth Routes
+
+Route::prefix('CV')->middleware('auth')->group(function (){
+    Route::get('/logout', LogoutController::class)->name('logout');
 });

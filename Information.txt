@@ -16,7 +16,7 @@ Users' Resume Table
 Jobs' Table
 
 1. Job Title
-2. Company Name
+2. Company_id
 3. Vacancy
 4. Job Responsibilities
 5. Employment Status
@@ -70,3 +70,57 @@ Social Link
  cat : fb
  user
  org:
+
+Job1
+    res 1
+    res 2
+    res 3
+
+
+job_responsibilities
+ job_id
+ res_id
+
+company1 == job1
+company1 == job2
+company2 != job1
+
+Res 1 == Machi Mara.
+Res 2 == Jharu deoya.
+
+
+job_1 == r1, r2
+job_2 == r1, r
+
+// pivot table
+responsibilities_job
+    responsible_id
+    job_id
+
+job
+    e
+
+edu
+    bsc in cse
+    msc in physics
+
+edu_job
+    job1 edu1
+    job1 education 2
+
+Branch
+    name
+    com_id
+    address
+
+Benefits
+    j1 -- b1 -- 2 days off
+    j2 -- b2 -- snaks evng
+
+
+// authentication
+
+Auth user -> password reset
+
+guest user -> login, registration, password forget, email verify
+
