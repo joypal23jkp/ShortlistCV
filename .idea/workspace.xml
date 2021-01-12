@@ -2,64 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb97342-0574-4339-ad3b-d56e2b767e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/EmailVerification/EmailVerifyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/EmailVerification/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LogoutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/Password/PasswordFogotController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/Password/PasswordResetController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Email/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Email/verify_email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_forget_confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_forget_email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Layouts/auth.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cv-shortlisting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cv-shortlisting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowLoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowRegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/UserService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Information.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CircularCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/JobCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Flight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_182945_create_flights_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183503_create_circular_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183503_create_job_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,9 +165,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RighBrainTech/php-packages" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -250,7 +203,13 @@
       <workItem from="1609612103427" duration="1231000" />
       <workItem from="1609690765909" duration="8107000" />
       <workItem from="1609954707821" duration="13681000" />
-      <workItem from="1610190628108" duration="6752000" />
+      <workItem from="1610190628108" duration="7746000" />
+      <workItem from="1610300210631" duration="7800000" />
+      <workItem from="1610337811943" duration="42000" />
+      <workItem from="1610465457036" duration="1059000" />
+      <workItem from="1610467106014" duration="153000" />
+      <workItem from="1610467296653" duration="25000" />
+      <workItem from="1610471700749" duration="377000" />
     </task>
     <servers />
   </component>
