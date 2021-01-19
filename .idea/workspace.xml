@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb97342-0574-4339-ad3b-d56e2b767e51" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowLoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowRegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+>>>>>>> 1fcfd19f8bed9a598648a76ed6a7e4a1683341e4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,9 +169,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RighBrainTech/php-packages" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -193,8 +207,18 @@
       <workItem from="1609612103427" duration="1231000" />
       <workItem from="1609690765909" duration="8107000" />
       <workItem from="1609954707821" duration="13681000" />
+<<<<<<< HEAD
       <workItem from="1610190628108" duration="6752000" />
       <workItem from="1610297624621" duration="1617000" />
+=======
+      <workItem from="1610190628108" duration="7746000" />
+      <workItem from="1610300210631" duration="7800000" />
+      <workItem from="1610337811943" duration="42000" />
+      <workItem from="1610465457036" duration="1059000" />
+      <workItem from="1610467106014" duration="153000" />
+      <workItem from="1610467296653" duration="25000" />
+      <workItem from="1610471700749" duration="377000" />
+>>>>>>> 1fcfd19f8bed9a598648a76ed6a7e4a1683341e4
     </task>
     <servers />
   </component>
