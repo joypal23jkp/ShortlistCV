@@ -3,19 +3,19 @@
 namespace App\Http\Controllers\UserPanel\Auth;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Request;
+use App\Http\Requests\UserRequest;
+use http\Env\Request;
 
 class LoginController extends Controller{
 
-    /* SHOW LOGIN FROM */
-    public function showLoginView()
-    {
-        return view('Frontend.Auth.login');
+    /**
+     * @param UserRequest $userRequest
+     */
+    public function __invoke(Request $request){
+
+
+        /** @var TYPE_NAME $validate */
+        $validate = $userRequest->validated();
+        dd($validate);
     }
-
-    public function login(Request $request)
-    {
-
-    }
-
 }

@@ -15,6 +15,17 @@ class CreateResumesTable extends Migration
     {
         Schema::create('resumes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->text('email');
+            $table->integer('phone');
+            $table->text('permanent_address');
+            $table->text('present_address');
+            $table->string('profile_description');
+            $table->string('social_link');
+            $table->string('educational_qualification');
+            $table->string('skills');
+            $table->string('extra_qualification');
+            $table->string('work_experience');
             $table->timestamps();
         });
     }

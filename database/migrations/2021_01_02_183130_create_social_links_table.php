@@ -15,6 +15,10 @@ class CreateSocialLinksTable extends Migration
     {
         Schema::create('social_links', function (Blueprint $table) {
             $table->id();
+            $table->string('facebook_id');
+            $table->string('linkedin_id');
+            $table->string('twitter_id');
+            $table->string('github_id');
             $table->timestamps();
         });
     }

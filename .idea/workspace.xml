@@ -2,87 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167f6ff5-5081-4e2c-b6f5-c2cdd193096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/EmailVerification/EmailVerifyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/EmailVerification/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LogoutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/Password/PasswordFogotController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/Password/PasswordResetController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/EducationJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ExperienceJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Job.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/JobBenefit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/JobCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/JobResponsibilities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ResponsibilitiesJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_162729_create_job_responsibilities_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_163016_create_job_benefits_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_164347_create_responsibilities_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_164821_create_education_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_165054_create_experience_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_165834_create_branches_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_170308_create_benefit_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-bootstrap.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic-foundation.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/css/open-iconic.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Email/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Email/verify_email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_forget_confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_forget_email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/Password/password_reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/Layouts/auth.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ShortlistCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShortlistCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowLoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowRegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/UserService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Information.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortlistCV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CircularCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BenefitJob.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Flight.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Branch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_182945_create_flights_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_03_170309_create_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183503_create_circular_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183503_create_job_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_142616_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_142616_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_150810_create_c_v_basic_infos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_150810_create_c_v_basic_infos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_174700_create_resumes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_174700_create_resumes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175300_create_degrees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175300_create_degrees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175342_create_subjects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175342_create_subjects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175934_create_organizations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175934_create_organizations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183021_create_experiences_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183021_create_experiences_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183043_create_aditional_requirements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183043_create_aditional_requirements_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183101_create_addresses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183101_create_addresses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183130_create_social_links_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183130_create_social_links_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183306_create_skills_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183306_create_skills_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +38,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/joypal23jkp/ShortlistCV" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -208,9 +166,10 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1msfOIdhEBBbFEFCpfl4PucmGFo" />
+  <component name="ProjectId" id="1m72VbUorVx3Z8XyZl7bQKeLm2s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -220,8 +179,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RighBrainTech/php-packages" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PlayGround\CvShortlisting\cv-shortlisting\public\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PlayGround\CvShortlisting\cv-shortlisting\app\Http\Controllers\UserPanel\Auth" />
+      <recent name="D:\PlayGround\CvShortlisting\cv-shortlisting\resources\views\Frontend\Auth\Email" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -233,20 +204,32 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="167f6ff5-5081-4e2c-b6f5-c2cdd193096c" name="Default Changelist" comment="" />
-      <created>1610287186122</created>
+      <created>1608830334206</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610287186122</updated>
-      <workItem from="1610287191318" duration="1341000" />
-      <workItem from="1610291764812" duration="63000" />
-      <workItem from="1610291986133" duration="62000" />
-      <workItem from="1610296742831" duration="1597000" />
-      <workItem from="1610299884902" duration="826000" />
-      <workItem from="1610363859221" duration="1873000" />
-      <workItem from="1610379379458" duration="1073000" />
-      <workItem from="1610380620243" duration="856000" />
-      <workItem from="1610464008590" duration="2595000" />
-      <workItem from="1610467647678" duration="4203000" />
+      <updated>1608830334206</updated>
+      <workItem from="1608830335486" duration="4061000" />
+      <workItem from="1608867561658" duration="8881000" />
+      <workItem from="1608917516053" duration="2819000" />
+      <workItem from="1609088626898" duration="3298000" />
+      <workItem from="1609179597005" duration="1295000" />
+      <workItem from="1609606335048" duration="5759000" />
+      <workItem from="1609612103427" duration="1231000" />
+      <workItem from="1609690765909" duration="8107000" />
+      <workItem from="1609954707821" duration="13681000" />
+      <workItem from="1610190628108" duration="7746000" />
+      <workItem from="1610300210631" duration="7800000" />
+      <workItem from="1610337811943" duration="42000" />
+      <workItem from="1610465457036" duration="1059000" />
+      <workItem from="1610467106014" duration="153000" />
+      <workItem from="1610467296653" duration="25000" />
+      <workItem from="1610471700749" duration="377000" />
+      <workItem from="1610623841878" duration="3191000" />
+      <workItem from="1610640914152" duration="2334000" />
+      <workItem from="1610798140960" duration="3565000" />
+      <workItem from="1610954628867" duration="7483000" />
+      <workItem from="1611057195282" duration="1672000" />
+      <workItem from="1611068424154" duration="1418000" />
     </task>
     <servers />
   </component>
@@ -263,5 +246,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

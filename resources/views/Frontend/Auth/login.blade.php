@@ -15,7 +15,8 @@
                 <h3 class="font-weight-bold">Sign In</h3>
             </div>
             <div class="card-body">
-                <form>
+                <form method="post">
+                    @csrf
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email"

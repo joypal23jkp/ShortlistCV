@@ -8,7 +8,7 @@ class CreateCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
-     * 
+     *
      *
      * @return void
      */
@@ -16,9 +16,9 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('cat_name');
-            $table->string('cat_desc');
-            // $table->integer('status');
+            $table->string('category_name');
+            $table->string('category_desc');
+            $table->string('category_parent');
             $table->timestamps();
         });
     }
