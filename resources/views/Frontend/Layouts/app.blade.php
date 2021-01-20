@@ -8,7 +8,7 @@
     <title>Shortlist CV - @yield('title')</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}"></head>
 <body>
-       <div class="card-header">
+       <div class="card-header bg-transparent">
            <ul class="nav justify-content-end">
                <li class="nav-item">
                    <a class="nav-link active" href="#">Name</a>
@@ -20,7 +20,19 @@
                    <a class="nav-link" href="#">Link</a>
                </li>
                <li class="nav-item">
-                   <button type="submit" class="btn btn-outline-info">Login</button>
+                   <div>
+                       <div class="dropleft">
+                           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <span class="sr-only">Toggle Dropleft</span>
+                           </button>
+                           <div class="dropdown-menu">
+                               <form method="post" action="{{ route('logout') }}">
+                                   @csrf
+                                   <button type="submit" class="btn btn-outline-info">Logout</button>
+                               </form>
+                           </div>
+                       </div>
+                   </div>
                </li>
            </ul>
        </div>

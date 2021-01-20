@@ -7,19 +7,18 @@ use App\Http\Controllers\UserPanel\IndexController;
 use Illuminate\Support\Facades\Route;
 
 //Guest Routes
-Route::prefix('CV')->group(function (){
+Route::middleware('guest')->group(function (){
 
     Route::prefix('auth')->group(function(){
         Route::get('/login', ShowLoginController::class)->name('login.show');
         Route::post('/login', LoginController::class)->name('login');
     });
 
-    Route::get('/', [ IndexController::class, 'index' ]);
-
 });
 
 //Auth Routes
 
-Route::prefix('CV')->middleware('auth')->group(function (){
-    Route::get('/logout', LogoutController::class)->name('logout');
+Route::middleware('auth')->group(function (){
+    Route::get('/', [ IndexController::class, 'index' ]);
+    Route::post('/logout', LogoutController::class)->name('logout');
 });

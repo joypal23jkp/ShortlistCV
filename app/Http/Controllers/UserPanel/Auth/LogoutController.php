@@ -3,17 +3,28 @@
 namespace App\Http\Controllers\UserPanel\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
+use Illuminate\Support\Facades\Auth;
 
 class LogoutController extends Controller{
 
-    public function __invoke(): JsonResponse
+    /**
+     * @param Request $request
+     * @return Application|RedirectResponse|Redirector
+     */
+    public function __invoke(Request $request)
     {
-        // TODO: Implement __invoke() method.
+        Auth::logout();
 
-        return response()->json([
-            'msg' => 'Logout Controller'
-        ]);
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
     }
 
 }

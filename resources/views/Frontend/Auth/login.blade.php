@@ -15,20 +15,27 @@
                 <h3 class="font-weight-bold">Sign In</h3>
             </div>
             <div class="card-body">
-                <form>
+                <form method="post" action="{{ route('login') }}">
+                    @csrf
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email"
-                               class="form-control"
+                               name="email"
+                               class="form-control mb-1"
                                id="exampleInputEmail1"
                                aria-describedby="emailHelp"
                                placeholder="Enter email">
+                        @error('email')
+                            <div>{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <div class="input-group mb-3 border" style="border-radius: 8px;">
                             <input type="password"
+                                   name="password"
                                    placeholder="Password"
+                                   value="11111111"
                                    id="exampleInputPassword1"
                                    class="w-75 border-0"
                                    style="padding: 0.375rem 0.75rem; outline: none;">
@@ -38,6 +45,9 @@
                                 </span>
                             </div>
                         </div>
+                        @error('password')
+                        <div>{{ $message }}</div>
+                        @enderror
                     </div>
                     <small
                         id="emailHelp"
