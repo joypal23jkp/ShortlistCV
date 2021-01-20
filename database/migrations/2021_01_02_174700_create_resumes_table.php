@@ -18,8 +18,7 @@ class CreateResumesTable extends Migration
             $table->string('name');
             $table->text('email');
             $table->integer('phone');
-            $table->text('permanent_address');
-            $table->text('present_address');
+            $table->text('address');
             $table->string('profile_description');
             $table->string('social_link');
             $table->string('educational_qualification');

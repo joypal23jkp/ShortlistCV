@@ -25,11 +25,12 @@ class CreateUsersTable extends Migration
                 $table->string('present_address',191)->nullable();
                 $table->enum('type',  UserTypeEnum::toArray())->default(UserTypeEnum::EMPLOYEE());
                 $table->enum('status', UserStatusEnum::toArray())->default(UserStatusEnum::ACTIVE());
-//                $table->t('email_verified_at')->nullable();
+                $table->date('email_verified_at')->nullable();
                 $table->rememberToken();
                 $table->timestamps();
                 $table->softDeletes();
             });
+
 
     }
 

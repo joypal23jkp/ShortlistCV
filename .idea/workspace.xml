@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167f6ff5-5081-4e2c-b6f5-c2cdd193096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowLoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/ShowRegistrationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/UserService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/Auth/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPanel/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_142616_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_142616_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_150810_create_c_v_basic_infos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_29_150810_create_c_v_basic_infos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_29_150810_create_c_v_basic_infos_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_174700_create_resumes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_174700_create_resumes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175300_create_degrees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175300_create_degrees_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175342_create_subjects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175342_create_subjects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_175934_create_organizations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_175934_create_organizations_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183021_create_experiences_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183021_create_experiences_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183043_create_aditional_requirements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183043_create_aditional_requirements_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183101_create_addresses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183101_create_addresses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183130_create_social_links_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183130_create_social_links_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_183306_create_skills_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_02_183306_create_skills_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontend/Auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +211,8 @@
       <workItem from="1610798140960" duration="3565000" />
       <workItem from="1610954628867" duration="7483000" />
       <workItem from="1611057195282" duration="1672000" />
-      <workItem from="1611068424154" duration="1418000" />
+      <workItem from="1611068424154" duration="10359000" />
+      <workItem from="1611161388350" duration="1743000" />
     </task>
     <servers />
   </component>
