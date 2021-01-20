@@ -15,6 +15,7 @@ class CreateAditionalRequirementsTable extends Migration
     {
         Schema::create('aditional_requirements', function (Blueprint $table) {
             $table->id();
+            $table->integer('age');
             $table->timestamps();
         });
     }
