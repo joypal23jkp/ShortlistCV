@@ -16,7 +16,6 @@ class CreateExperiencesTable extends Migration
         Schema::create('experiences', function (Blueprint $table) {
             $table->id();
             $table->string('experience_year');
-            $table->string('experience_year');
             $table->timestamps();
         });
     }

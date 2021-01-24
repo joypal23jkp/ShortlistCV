@@ -15,6 +15,8 @@ class CreateEducationJobsTable extends Migration
     {
         Schema::create('education_jobs', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('education_id')->constrained();
+            $table->foreignId('job_id')->constrained();
             $table->timestamps();
         });
     }

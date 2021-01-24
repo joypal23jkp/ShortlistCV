@@ -15,10 +15,10 @@ class CreateDegreesTable extends Migration
     {
         Schema::create('degrees', function (Blueprint $table) {
             $table->id();
-            $table->string("degree_title");
-            $table->string("result");
-            $table->string("year");
-            $table->string("institution");
+            $table->string("degree_name");
+            $table->float("result")->nullable();
+            $table->string("passing_year")->nullable();
+            $table->string("institution")->nullable();
             $table->timestamps();
         });
     }
